@@ -6,7 +6,9 @@
 		"silverstripe/cms": "3.3.2",
 		"silverstripe/framework": "3.3.2",
 		"silverstripe/reports": "3.3.2",
-		"silverstripe/siteconfig": "3.3.2"
+		"silverstripe/siteconfig": "3.3.2",
+		"sheadawson/silverstripe-blocks": "dev-master",
+		"micschk/silverstripe-groupable-gridfield": "dev-master"
 	},
 	"require-dev": {
 		"phpunit/PHPUnit": "~3.7"

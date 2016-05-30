@@ -8,4 +8,19 @@ After:
 # See http://doc.silverstripe.org/framework/en/topics/configuration
 # Caution: Indentation through two spaces, not tabs
 SSViewer:
-  theme: 'simple'
+  theme_enabled: false
+
+#Blocks
+BlockManager:
+  themes:
+    default:
+      areas:
+        Top:
+        BeforeContent:
+        Sidebar:
+        AfterContent:
+        Bottom:
+#Groupable blocks
+Injector:
+  GridFieldConfig_BlockManager:
+    class: GFConf_BlockManagerEnhanced

@@ -8,6 +8,11 @@ public/themes/simple
 public/themes/tutorial
 public/reports/
 public/siteconfig/
+public/betterbuttons/
+public/blocks/
+public/gridfield_groupable/
+public/gridfieldextensions/
+public/multivaluefield/
 logs
 temp
 .idea
